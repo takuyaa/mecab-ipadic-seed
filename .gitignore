@@ -9,6 +9,7 @@ node_modules
 gulp.1
 
 # Others
+tmp
 .DS_Store
 
 # Distribution
