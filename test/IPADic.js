@@ -3,7 +3,7 @@
 const assert = require('assert');
 const IPADic = require('../lib/IPADic').default;
 
-describe('index', () => {
+describe('IPADic', () => {
     it('constructor', () => {
         const dic = new IPADic();
         assert(dic != null);
