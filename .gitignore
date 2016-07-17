@@ -1,0 +1,16 @@
+# Dependency directory
+node_modules
+
+# IntelliJ
+.idea
+*.iml
+
+# Gulp
+gulp.1
+
+# Others
+.DS_Store
+
+# Distribution
+lib
+.publish
