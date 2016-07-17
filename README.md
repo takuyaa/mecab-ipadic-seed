@@ -1,5 +1,7 @@
 # mecab-ipadic-seed
 
+[![Build Status](https://travis-ci.org/takuyaa/mecab-ipadic-seed.svg?branch=master)](https://travis-ci.org/takuyaa/mecab-ipadic-seed)
+
 File reader for [mecab-ipadic](https://github.com/taku910/mecab/tree/master/mecab-ipadic) seed dictionary.
 
 ## Installation
