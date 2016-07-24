@@ -39,6 +39,7 @@
     "build": "gulp build",
     "clean": "gulp clean",
     "test": "gulp test",
+    "preversion": "gulp test",
     "watch": "gulp watch"
   }
 }
