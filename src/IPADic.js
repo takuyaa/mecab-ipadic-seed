@@ -16,7 +16,7 @@ export default class IPADic {
         this.characterDefinition = new DictionaryReader('char.def');
         this.unknownWordDefinition = new DictionaryReader('unk.def');
 
-        const readers = fs.readdirSync('lib/dict/').filter((filename) => {
+        const readers = fs.readdirSync(`${__dirname}/dict/`).filter((filename) => {
             return /\.csv$/.test(filename);
         }).map((filename) => {
             return new DictionaryReader(filename);

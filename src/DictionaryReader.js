@@ -23,7 +23,7 @@ export default class DictionaryReader {
     read(callback) {
         return new Promise((resolve) => {
             const rl = readline.createInterface({
-                input: fs.createReadStream(`lib/dict/${this.filename}`)
+                input: fs.createReadStream(`${__dirname}/dict/${this.filename}`)
             });
             rl.on('line', (line) => {
                 callback(line);
